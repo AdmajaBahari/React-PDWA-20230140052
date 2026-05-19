@@ -1,0 +1,56 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        "surface": "#f9f9f9",
+        "surface-dim": "#dadada",
+        "surface-container-lowest": "#ffffff",
+        "surface-container-low": "#f3f3f3",
+        "surface-container": "#eeeeee",
+        "surface-container-high": "#e8e8e8",
+        "surface-container-highest": "#e2e2e2",
+        "on-surface": "#1b1b1b",
+        "on-surface-variant": "#4c4546",
+        "inverse-surface": "#303030",
+        "inverse-on-surface": "#f1f1f1",
+        "outline": "#7e7576",
+        "outline-variant": "#cfc4c5",
+        "primary": "#000000",
+        "on-primary": "#ffffff",
+        "primary-container": "#1b1b1b",
+        "secondary": "#003ec7",
+        "secondary-container": "#0151ff",
+        "on-secondary-container": "#dfe3ff",
+        "tertiary-container": "#410002",
+        "on-tertiary-container": "#fc2f2f",
+        "background": "#f9f9f9",
+        "on-background": "#1b1b1b",
+        "surface-variant": "#e2e2e2",
+        "accent-blue": "#0051FF",
+        "accent-red": "#FF3131",
+        "accent-green": "#CCFF00",
+      },
+      fontFamily: {
+        'anton': ['Anton', 'sans-serif'],
+        'lexend': ['Lexend', 'sans-serif'],
+      },
+      borderRadius: {
+        'sm': '0.125rem',
+        'DEFAULT': '0.25rem',
+        'md': '0.375rem',
+        'lg': '0.5rem',
+        'xl': '0.75rem',
+        'full': '9999px',
+      },
+      maxWidth: {
+        'container': '1440px',
+      },
+    },
+  },
+  plugins: [],
+}
